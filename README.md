@@ -21,4 +21,9 @@ git clone https://github.com/GrantGZS/ProxyServerC.git
 2. compile the proxy server with command: make
 3. run program ./tcpproxy [host_ip] [host_port] [client_port]
 4. in another terminal use telnet [client_ip] [client_port] command to proxy and GET / to fetch data through proxy server from host ip
+
+
+##Sample result
+![Sample Result](https://github.com/GrantGZS/ProxyServerC/blob/main/result/test.png)
+
    
