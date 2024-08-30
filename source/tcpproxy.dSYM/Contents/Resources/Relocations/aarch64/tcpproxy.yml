@@ -1,0 +1,30 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     tcpproxy
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002B68, symSize: 0x7C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002B68, symSize: 0x7C }
+  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0x7C, symBinAddr: 0x100002BE4, symSize: 0x1C }
+  - { offsetInCU: 0x26, offset: 0xED, size: 0x8, addend: 0x0, symName: _start_proxy, symObjAddr: 0x0, symBinAddr: 0x100002C00, symSize: 0x1D0 }
+  - { offsetInCU: 0x41, offset: 0x108, size: 0x8, addend: 0x0, symName: _start_proxy, symObjAddr: 0x0, symBinAddr: 0x100002C00, symSize: 0x1D0 }
+  - { offsetInCU: 0xDB, offset: 0x1A2, size: 0x8, addend: 0x0, symName: _make_async, symObjAddr: 0x1D0, symBinAddr: 0x100002DD0, symSize: 0xDC }
+  - { offsetInCU: 0x120, offset: 0x1E7, size: 0x8, addend: 0x0, symName: _proxy_serve, symObjAddr: 0x2AC, symBinAddr: 0x100002EAC, symSize: 0x2D4 }
+  - { offsetInCU: 0x180, offset: 0x247, size: 0x8, addend: 0x0, symName: _proxy_read_client, symObjAddr: 0x580, symBinAddr: 0x100003180, symSize: 0xBC }
+  - { offsetInCU: 0x1D2, offset: 0x299, size: 0x8, addend: 0x0, symName: _proxy_write_client, symObjAddr: 0x63C, symBinAddr: 0x10000323C, symSize: 0xBC }
+  - { offsetInCU: 0x224, offset: 0x2EB, size: 0x8, addend: 0x0, symName: _proxy_read_host, symObjAddr: 0x6F8, symBinAddr: 0x1000032F8, symSize: 0xBC }
+  - { offsetInCU: 0x276, offset: 0x33D, size: 0x8, addend: 0x0, symName: _proxy_write_host, symObjAddr: 0x7B4, symBinAddr: 0x1000033B4, symSize: 0xBC }
+  - { offsetInCU: 0x26, offset: 0x4EC, size: 0x8, addend: 0x0, symName: _buf_init, symObjAddr: 0x0, symBinAddr: 0x100003470, symSize: 0x4C }
+  - { offsetInCU: 0x33, offset: 0x4F9, size: 0x8, addend: 0x0, symName: _buf_init, symObjAddr: 0x0, symBinAddr: 0x100003470, symSize: 0x4C }
+  - { offsetInCU: 0x65, offset: 0x52B, size: 0x8, addend: 0x0, symName: _buf_destroy, symObjAddr: 0x4C, symBinAddr: 0x1000034BC, symSize: 0x28 }
+  - { offsetInCU: 0x89, offset: 0x54F, size: 0x8, addend: 0x0, symName: _buf_get_data, symObjAddr: 0x74, symBinAddr: 0x1000034E4, symSize: 0xFC }
+  - { offsetInCU: 0xE9, offset: 0x5AF, size: 0x8, addend: 0x0, symName: _buf_get_space, symObjAddr: 0x170, symBinAddr: 0x1000035E0, symSize: 0x108 }
+  - { offsetInCU: 0x149, offset: 0x60F, size: 0x8, addend: 0x0, symName: _buf_update_data, symObjAddr: 0x278, symBinAddr: 0x1000036E8, symSize: 0x28 }
+  - { offsetInCU: 0x17B, offset: 0x641, size: 0x8, addend: 0x0, symName: _buf_update_space, symObjAddr: 0x2A0, symBinAddr: 0x100003710, symSize: 0x5C }
+  - { offsetInCU: 0x26, offset: 0x71B, size: 0x8, addend: 0x0, symName: _make_server, symObjAddr: 0x0, symBinAddr: 0x10000376C, symSize: 0x1C8 }
+  - { offsetInCU: 0x153, offset: 0x848, size: 0x8, addend: 0x0, symName: _make_server, symObjAddr: 0x0, symBinAddr: 0x10000376C, symSize: 0x1C8 }
+  - { offsetInCU: 0x1C2, offset: 0x8B7, size: 0x8, addend: 0x0, symName: __OSSwapInt16, symObjAddr: 0x1C8, symBinAddr: 0x100003934, symSize: 0x24 }
+  - { offsetInCU: 0x1EA, offset: 0x8DF, size: 0x8, addend: 0x0, symName: _server_accept, symObjAddr: 0x1EC, symBinAddr: 0x100003958, symSize: 0xB4 }
+  - { offsetInCU: 0x24B, offset: 0x940, size: 0x8, addend: 0x0, symName: _make_addrinfo, symObjAddr: 0x2A0, symBinAddr: 0x100003A0C, symSize: 0xE4 }
+  - { offsetInCU: 0x2BC, offset: 0x9B1, size: 0x8, addend: 0x0, symName: _free_addrinfo, symObjAddr: 0x384, symBinAddr: 0x100003AF0, symSize: 0x24 }
+  - { offsetInCU: 0x2E0, offset: 0x9D5, size: 0x8, addend: 0x0, symName: _host_connect, symObjAddr: 0x3A8, symBinAddr: 0x100003B14, symSize: 0x1A0 }
+...
